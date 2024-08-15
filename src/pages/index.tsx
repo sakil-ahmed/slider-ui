@@ -1,8 +1,6 @@
 import Head from "next/head";
 
-import { ResizableContainer } from "@/components/ResizeSections/components-preview/ResizableContainer";
-import { type Component } from "@/data/components/types";
-import { authenticationComponents_list, authenticationComponentsData } from "@/data/components/sliderData";
+
 
 export default function Home() {
 
@@ -16,15 +14,7 @@ export default function Home() {
       </Head>
       <main className="min-h-screen w-full">
         <div className="mx-auto w-full max-w-[1400px] px-4">
-          {authenticationComponents_list.map((c, index) => {
-            return (
-              <ResizableContainer
-                key={index}
-                componentData={authenticationComponentsData}
-                component={c}
-              />
-            );
-          })}
+       
         </div>
       </main>
     </>

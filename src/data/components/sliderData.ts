@@ -1,6 +1,6 @@
 import type { Component } from "@/data/components/types";
 
-export const authenticationComponentsData = [
+export const ComponentsData = [
     {
       id: "authentication",
       filename: "login-with-0auth",
@@ -14,7 +14,7 @@ export const authenticationComponentsData = [
     },
   ];
 
-  export const authenticationComponents_list: Component[] = [
+  export const components_list: Component[] = [
     {
      
       name: "Default Slider",
